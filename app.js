@@ -30,6 +30,7 @@ quoteInputElement.addEventListener("input", () => {
 
     if (correct) {
         timerCondition = false;
+        timerStart = true;
         setTimeout(() => {
             renderNewQuote();
         }, 3000);
